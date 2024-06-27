@@ -4,7 +4,7 @@
 This is the application of official codebase for **adaMVP: Probabilistic graph-based model uncovers druggable vulnerabilities in major solid cancers.** 
 
 [paper] (https://www.biorxiv.org/content/10.1101/2024.06.04.597409v1)
-![code](https://github.com/YingZ-A3D3a/A3D3a_MVP/tree/main/adaMVP)
+[code](https://github.com/YingZ-A3D3a/A3D3a_MVP/tree/main/adaMVP)
 
 ## What is A3D3a's MVP?
 A3D3a’s MVP (Adaptive AI-Augmented Drug Discovery and Development Molecular Vulnerability Picker) is a novel graph-based, cooperativity-led Markov chain model, developed and maintained by Ying Zhu, Stephanie Schmidt, et al. from [Bissan Al-lazikani lab](https://faculty.mdanderson.org/profiles/bissan_al_lazikani.html) at the University of Texas MD Anderson Cancer Center. The algorithm exploits cooperativity of weak signals within a cancer molecular network to enhance the signal of true molecular vulnerabilities. 
