@@ -37,11 +37,12 @@ pip install adaMVP
 
 ## Preparing INPUTS
 #### Preparing your seed genes input file (mandatory)
-This csv file must include two column names 'Gene' and 'Freq'. The 'Gene' column should have a list of genes with official gene symbols (HGNC symbols), and the 'Freq' column should be a list of numeric numbers between 0 and 1 representing the altered freq of a gene within the populations. An example file can be downloaded at [example input file](https://github.com/YingZ-A3D3a/A3D3a_MVP/blob/main/input/TCGA_BRCA_DNA_altered_freq.csv). 
+This csv file must include two column names 'Gene' and 'Freq'. The 'Gene' column should have a list of genes with official gene symbols (HGNC symbols), and the 'Freq' column should be a list of numeric numbers between 0 and 1 representing the altered freq of a gene within the populations. An example file can be downloaded at [example input file](https://github.com/YingZ-A3D3a/A3D3a_MVP_application/blob/main/input/altered_freq.csv). 
 The recommended number of seed genes is between 50-250. For data from multiple modalities, e.g. mutation, CNV, RNA, the 'Freq' can be set as the maximum altered frequency across modalities. Please read the method part of the manuscript for detailed explanations.
 
 #### RNA expression data for filtering expressed genes in first neighbors
 The RNA expression matrix should have gene symbols (HGNC symbols) as row indices and sample names as column indices. The RNA expression matrix can contain either raw counts or log normalized counts.
+[example RNA file](https://github.com/YingZ-A3D3a/A3D3a_MVP_application/blob/main/input/RNA_lognorm_matrix.csv)
 
 ### Tutorial
 #### Find first neighbors, filter the expressed genes, and build MVP model for prioritizing molecular vulerabilities
